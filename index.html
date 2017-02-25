@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Logo Search</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h1>Society Education Programs</h1>
+	<div class="search-container">
+		<form id="search-form">
+			<select class="pr-type">
+				<option value="all" selected>Program Type</option>
+				<option value="scolarship-program">Scolarship Program</option>
+				<option value="loan-program">Loan Program</option>
+			</select>
+			<select class="lvl-ed">
+				<option value="all" selected>Level of Education</option>
+				<option value="k-12">K-12</option>
+				<option value="high-school">High School</option>
+			</select>
+			<input type="submit" name="submit-form" value="Search">
+		</form>
+	</div>
+	<div class="all-logos">
+		<div class="img-container" data-img="aci" data-prgrm="scolarship-program" data-lvled="k-12"></div>
+		<div class="img-container" data-img="acm" data-prgrm="loan-program" data-lvled="high-school"></div>
+		<div class="img-container" data-img="afe" data-prgrm="scolarship-program" data-lvled="high-school"></div>
+		<div class="img-container" data-img="aci" data-prgrm="scolarship-program" data-lvled="k-12"></div>
+		<div class="img-container" data-img="acm" data-prgrm="loan-program" data-lvled="high-school"></div>
+		<div class="img-container" data-img="afe" data-prgrm="scolarship-program" data-lvled="k-12"></div>
+		<div class="img-container" data-img="acm" data-prgrm="loan-program" data-lvled="k-12"></div>
+		<div class="img-container" data-img="afe" data-prgrm="scolarship-program" data-lvled="high-school"></div>
+	</div>
+
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
